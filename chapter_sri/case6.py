@@ -1,0 +1,41 @@
+friends = ['amir', 'daler', 'ifti', 'farzod']
+print(friends[3])
+del friends[3]
+print(friends)
+friends.append('xuri')
+print(friends)
+print("hello " + friends[0])
+print("hello " + friends[1])
+print("hello " + friends[2])
+print("hello " + friends[3])
+friends.insert(0 ,'mehri')
+friends.insert(3,'meki')
+friends.append('damir')
+print(friends)
+print("hello " + friends[0])
+print("hello " + friends[1])
+print("hello " + friends[2])
+print("hello " + friends[3])
+print("hello " + friends[4])
+print("hello " + friends[5])
+
+# case 7
+print("Invite " + friends[2])
+print("Invite " + friends[4])
+
+not_invite1 = friends.pop(0)
+print("My Fallout " + not_invite1)
+not_invite2 = friends.pop(0)
+print("My Fallout " + not_invite2)
+not_invite3 = friends.pop(1)
+print("My Fallout " + not_invite3)
+not_invite4 = friends.pop(2)
+print("My Fallout " + not_invite4)
+not_invite5 = friends.pop(2)
+print("My Fallout " + not_invite5)
+print(friends)
+print("hello " + friends[0])
+print("hello " + friends[1])
+del friends[1]
+del friends[0]
+print(friends)

@@ -1,0 +1,12 @@
+country = ['samarkand', 'tashkent', 'bukhara', 'qarshi', 'namangan']
+print(country)
+print(sorted(country))
+print(country)
+country.reverse()
+print(country)
+country.reverse()
+print(country)
+country.sort()
+print(country)
+country.sort(reverse=True)
+print(country)
